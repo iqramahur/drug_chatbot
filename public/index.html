@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drug Interaction Chatbot 💊</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Drug Interaction Chatbot 💬</h1>
+    <p>Ask questions about drug interactions (for educational use only).</p>
+  </header>
+
+  <main class="chat-container">
+    <div id="chat-log" class="chat-log">
+      <div class="message bot">
+        <strong>Bot:</strong> Hello! I can help you understand possible interactions between drugs. 
+        Please type your question below.
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="e.g. Can I take ibuprofen with aspirin?" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </main>
+
+  <footer>
+    ⚠️ <strong>Disclaimer:</strong> This chatbot is for educational purposes only.
+    Always consult a healthcare professional for medical advice.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
